@@ -19,9 +19,9 @@ export function addComment(postId, author, comment){
 //delete comment
 export function deleteComment(postId, i) {
   return{
-    type: 'DELETE COMMENT',
-    postId,
-    i
+    type: 'REMOVE_COMMENT',
+    i,
+    postId
   }
 }
 
