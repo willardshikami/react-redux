@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 
-class Photo extends Component {
+class Photo extends React.Component {
   render() {
     const {post, i, comments} = this.props;
     return (
